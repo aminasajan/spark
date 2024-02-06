@@ -8,8 +8,7 @@ val spark = SparkSession.builder()
   .appName("Hello World")
   .master("local")
   .getOrCreate()
-val sourceRDD = spark.sparkContext.textFile("/home/aminasajan/Documents/sample_input.odt")
-
-sourceRDD.take(1).foreach(println)
+val sourceRDD = spark.sparkContext.textFile("/home/aminasajan/Documents/sample_input.txt")
+  sourceRDD.take(1).foreach(println)
   spark.stop()
 }
