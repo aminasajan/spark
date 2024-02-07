@@ -14,6 +14,8 @@ val spark=SparkSession.builder()
 // Finally, getOrCreate() is called to either retrieve an existing SparkSession or create a new one if it doesn't already exist.
  val df= spark.read
    .option("header",value=true)
+   .option("inferSchema",value=true)
+   //to infer the datatype of ea ch column
     .csv("data/AAPL.csv")
     //This block of code reads a CSV file named "AAPL.csv" located in the "data" directory (relative to the project's root directory) into a DataFrame named df.
     // It uses the read method of the spark SparkSession object to create a DataFrameReader, sets an option to treat the first row as a header using .option("header", value = true),
@@ -21,6 +23,8 @@ val spark=SparkSession.builder()
 
     df.show()
 // The show() method is used to print the first 20 rows of the DataFrame to the console in a tabular format.
+ df.printSchema()
+    //To print the column name
   }
 
 }
