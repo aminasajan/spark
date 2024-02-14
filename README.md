@@ -26,3 +26,10 @@ Distributed computing is a computing paradigm that involves multiple computers w
 - Scalability: Adding or removing resources dynamically to accommodate changing workloads and data volumes.
 - Data Partitioning: Dividing datasets into smaller partitions and distributing them across nodes for parallel processing.
 - Communication: Facilitating communication and coordination among nodes in the cluster to execute tasks efficiently.
+
+
+
+
+
+
+It is not necessary that main function needs to be inside an object.
