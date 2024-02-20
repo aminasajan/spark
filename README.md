@@ -38,7 +38,7 @@ It is not necessary that main function needs to be inside an object.
 ## Core Concepts of Spark
 ### RDD
 
-- RDDs are the fundamental data structure in Spark, representing immutable distributed collections of objects.
+- RDDs are the fundamental data structure in Spark, representing immutable distributed collection of elements that can be operated on in parallel across a cluster of machines.
 - They allow parallel processing of data across a cluster in a fault-tolerant manner.
 - RDDs can be created from external data sources or by transforming existing RDDs through operations.
 
