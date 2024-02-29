@@ -28,7 +28,6 @@ object SparkInitializer {
     val dfWithDates = df.withColumn("pickup_date", to_date(col("lpep_pickup_datetime")))
       .withColumn("dropoff_date", to_date(col("lpep_dropoff_datetime")))
     val minDate = dfWithDates.select(min("pickup_date")).first().getDate(0)
-
     val maxDate = dfWithDates.select(max("dropoff_date")).first().getDate(0)
     println(s"Start date: $minDate")
     println(s"End date: $maxDate")
