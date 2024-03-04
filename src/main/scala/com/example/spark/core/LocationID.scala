@@ -97,7 +97,7 @@ object LocationID {
     val rideCount = filteredDF.count()
     println(s"No. of rides on $targetdate: $rideCount ")
 
-    val startdate=LocalDate.parse("2021-08-01")
+    val startdate=LocalDate.parse("2021-07-01")
     val enddate=startdate.plusDays(6)
     filteredDF=df.filter(col("lpep_pickup_datetime").substr(1,10).between(startdate.toString(),enddate.toString))
     val rideCountsByDate=filteredDF.groupBy("lpep_pickup_datetime").count().orderBy("count").limit(1)

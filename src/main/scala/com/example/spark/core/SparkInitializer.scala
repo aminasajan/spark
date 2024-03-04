@@ -8,7 +8,7 @@ object SparkInitializer {
     Logger.getLogger("org").setLevel(Level.ERROR)
 
     SparkSession.builder()
-      .appName("taxi trip")
+      .appName("Course Updates")
       .master("local[*]")
       .getOrCreate()
   }
