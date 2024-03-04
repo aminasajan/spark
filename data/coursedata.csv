@@ -1,0 +1,22 @@
+userID,userName,userOrgID,userOrgName,userStatus,courseID,courseName,completionStatus,completedOn,Time taken,completion percentage
+b4c6e8a1-2b3c-4d5e-6f7a-8b9c0d1e2f3a,Jane Smith,9.87654321098765E+016,Department of Human Resources,inactive,do_2345678901234567890123,Programming Fundamentals,completed,2022-02-20 12:02:57,01:46:00,100
+b4c6e8a1-2b3c-4d5e-6f7a-8b9c0d1e2f3a,Jane Smith,9.87654321098765E+016,Department of Human Resources,inactive,do_1234567890123456789012,Introduction to Physics,enrolled,,0,0
+c5a7e9b2-3c4d-5e6f-7a8b-9c0d1e2f3a4b,Michael Johnson,5.55555555555556E+018,Department of Sales,active,do_3456789012345678901234,Data Analysis with Python,completed,2022-02-20 12:03:09,03:30:45,100
+c5a7e9b2-3c4d-5e6f-7a8b-9c0d1e2f3a4b,Michael Johnson,5.55555555555556E+018,Department of Sales,active,do_2345678901234567890123,Programming Fundamentals,in-progress,,02:59:12,34
+d6f8a1c3-4d5e-6f7a-8b9c-0d1e2f3a4b5c,Emily Brown,1.11111111111111E+018,Department of Operations,inactive,do_3456789012345678901234,Data Analysis with Python,in-progress,,04:15:20,67
+d7f84422-253d-4dc3-af68-16e28b6400c6,Suman Chandrashekhar,1.32593267437814E+017,Department of Finance,active,do_1136293539646095361297,How to excel in Maths,in-progress,,05:22:55,45
+d7f84422-253d-4dc3-af68-16e28b6400c6,Suman Chandrashekhar,1.32593267437814E+017,Department of Finance,active,do_1136293539646095361190,How to excel in calculations,completed,2022-02-20 12:02:56,06:10:10,100
+e7b9d1f3-5e6f-7a8b-9c0d-1e2f3a4b5c6d,David Wilson,1E+017,Department of IT,active,do_2345678901234567890123,Programming Fundamentals,enrolled,,0,0
+e7b9d1f3-5e6f-7a8b-9c0d-1e2f3a4b5c6d,David Wilson,1E+017,Department of IT,active,do_4567890123456789012345,Web Development Basics,completed,2022-06-01 13:20:56,07:46:30,100
+a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p,Jessica Martinez,1.11111111111111E+018,Department of Operations,active,do_3456789012345678901234,Data Analysis with Python,in-progress,,08:33:05,45
+a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p,Jessica Martinez,1.11111111111111E+018,Department of Operations,active,do_1136293539646095361297,How to excel in Maths,in-progress,,09:55:40,35
+a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p,Jessica Martinez,1.11111111111111E+018,Department of Operations,active,do_3456789012345678901234,Data Analysis with Python,in-progress,,10:18:15,76
+c3d4e5f6-g7h8-i9j0-k1l2-m3n4o5p6q7r,Priya Deshpande,9.87654321098765E+016,Department of Human Resources,active,do_1234567890123456789012,Introduction to Physics,in-progress,,11:37:22,89
+c3d4e5f6-g7h8-i9j0-k1l2-m3n4o5p6q7r,Priya Deshpande,9.87654321098765E+016,Department of Human Resources,active,do_1136293539646095361190,How to excel in calculations,in-progress,,02:59:12,23
+c3d4e5f6-g7h8-i9j0-k1l2-m3n4o5p6q7r,Priya Deshpande,9.87654321098765E+016,Department of Human Resources,active,do_2345678901234567890123,Programming Fundamentals,in-progress,,03:30:45,56
+b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q,David Thompson,1.11111111111111E+018,Department of Operations,active,do_1136293539646095361297,How to excel in Maths,in-progress,,01:46:00,18
+b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q,David Thompson,1.11111111111111E+018,Department of Operations,active,do_3456789012345678901234,Data Analysis with Python,completed,2022-02-23 11:20:55,02:59:12,100
+b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q,David Thompson,1.11111111111111E+018,Department of Operations,active,do_1234567890123456789012,Introduction to Physics,enrolled,,0,0
+d4e5f6g7-h8i9-j0k1-l2m3-n4o5p6q7r8s,Emily Williams,1.32593267437814E+017,Department of Finance,active,do_1136293539646095361190,How to excel in calculations,completed,,03:30:45,100
+d4e5f6g7-h8i9-j0k1-l2m3-n4o5p6q7r8s,Emily Williams,1.32593267437814E+017,Department of Finance,active,do_4567890123456789012345,Web Development Basics,enrolled,,0,0
+d4e5f6g7-h8i9-j0k1-l2m3-n4o5p6q7r8s,Emily Williams,1.32593267437814E+017,Department of Finance,active,do_1136293539646095361297,How to excel in Maths,completed,2022-02-18 07:30:40,06:10:10,100
