@@ -61,8 +61,8 @@ Transformations on RDDs are not executed immediately, Spark waits until an actio
  - Transformations are operations that create new RDDs from existing RDDs.
  - Common transformations include map, filter, flatMap, reduceByKey, sortByKey, etc.
  - Each transformation produces a new RDD, preserving the immutability of RDDs.
-
-  ### Actions on RDDs
+  
+    ### Actions on RDDs
 - Actions are operations that trigger computation and produce results.
 - Examples of actions include count, collect, reduce, take, saveAsTextFile, etc.
 - Actions are necessary to materialize the lazy transformations and obtain actual results.
